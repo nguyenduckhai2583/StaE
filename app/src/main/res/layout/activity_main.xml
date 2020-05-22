@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="36dp"
+    android:paddingEnd="36dp"
+    android:background="@drawable/background_color"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@id/loginEdt_email"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_big"
+        android:contentDescription="@string/app_name" />
+
+    <EditText
+        android:id="@+id/loginEdt_email"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="64dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/decord_edt"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/txt_email"
+        android:paddingStart="20dp"
+        android:paddingEnd="2dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/loginEdt_password"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@id/loginEdt_email"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/decord_edt"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/txt_password"
+        android:paddingStart="20dp"
+        android:paddingEnd="2dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/loginBtn_dangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@id/loginEdt_password"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/decord_btn_login"
+        android:text="@string/txt_dangnhap"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/anim_ripple_whilte"
+        android:text="@string/txt_forgot_pass"
+        android:layout_below="@id/loginBtn_dangNhap"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/abeezee_italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/anim_ripple_whilte"
+        android:text="@string/txt_contact"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_font_size"
+        android:fontFamily="@font/abeezee_italic"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

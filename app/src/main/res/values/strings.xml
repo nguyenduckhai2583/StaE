@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stap Emotion</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_dangnhap">Đăng nhập</string>
+    <string name="txt_title_thongke">XEM THỐNG KÊ</string>
+    <string name="txt_thong_ke_cam_xuc">Thống kê cảm xúc khách hàng</string>
+    <string name="txt_normal">Bình thường</string>
+    <string name="txt_happy">Vui vẻ</string>
+    <string name="txt_unhappy">Không vui</string>
+    <string name="txt_xem_duoi_dang">Xem dưới dạng biểu đồ</string>
+    <string name="txt_xem">Xem</string>
+    <string name="txt_forgot_pass">Quên mật khẩu</string>
+    <string name="txt_contact">Liên hệ với chúng tôi</string>
+</resources>

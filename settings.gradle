@@ -1,0 +1,2 @@
+rootProject.name='Stap Emotion'
+include ':app'

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038178539717",
+    "firebase_url": "https://stae-c0014.firebaseio.com",
+    "project_id": "stae-c0014",
+    "storage_bucket": "stae-c0014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038178539717:android:04779ab39022bd0e7238ac",
+        "android_client_info": {
+          "package_name": "com.example.stapemotion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038178539717-ji3tnjetie923b08pnd7i0nngbde78t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stapemotion",
+            "certificate_hash": "eed3a415211d91b292515d812dad3822c678998f"
+          }
+        },
+        {
+          "client_id": "1038178539717-t6se67vnu14lb593gj51i49tqjmcjmhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxS05Mhy-xLY9yQkT20gzZBfW75BeXzGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038178539717-t6se67vnu14lb593gj51i49tqjmcjmhv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1038178539717-0g0fib8pundos9g38nv81dl6cae8t56o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fservingtech.stae"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

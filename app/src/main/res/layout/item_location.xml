@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemLocation_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="18dp"
+    android:elevation="8dp"
+    android:background="@drawable/background_item_location">
+
+    <TextView
+        android:id="@+id/itemTvLocation_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@id/itemHomeImg_img"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="Vinmart Tôn Đức Thắng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/large_font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemTvLocation_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemTvLocation_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:paddingEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toEndOf="@id/itemHomeImg_img"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="124 Tôn Đức Thắng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium_font_size" />
+
+    <ImageView
+        android:id="@+id/itemHomeImg_img"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
